@@ -34,3 +34,63 @@ nav li a{
     color: black;
     font-size: 1.8rem;
 }
+section{
+    width: 1050px;
+    margin: auto;
+}
+
+section .container h3{
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+section .container p{
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+section .container .box span{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+section .container .box h5{
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+section .box img{
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+}
+.cont2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}   
+
+section .box{
+    padding: 2.8rem 3rem;
+    width: calc((100% - 50px) / 2);
+    display: flex;
+    /* margin-bottom: 35px; */
+}
+section .box:first-child{
+    margin-bottom: 3.5rem;
+}
+section .box:nth-child(2){
+    margin-bottom: 3.5rem;
+}
+section .container .box .hspan{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+}
+section .box:hover{
+    box-shadow: 20px 35px 100px rgba(255, 146, 107, 0.2);
+    border-radius: 10px;
+
+}
