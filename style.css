@@ -59,6 +59,7 @@ section .container .box span{
 section .container .box h5{
     font-size: 2rem;
     line-height: 2.4rem;
+    margin-bottom: 1rem;
 }
 section .box img{
     padding: 2rem 2rem;
@@ -76,6 +77,7 @@ section .box{
     padding: 2.8rem 3rem;
     width: calc((100% - 50px) / 2);
     display: flex;
+    transition: 0.5s ease;
     /* margin-bottom: 35px; */
 }
 section .box:first-child{
