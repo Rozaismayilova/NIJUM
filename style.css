@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 13.5rem;
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+
+}
+
+nav h2{
+    font-size: 3.4rem;
+    display: inline-block;
+    line-height: 4.1rem;
+    letter-spacing: -0.05em;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
